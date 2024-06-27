@@ -1,5 +1,4 @@
-# Unseen Object Reasoning with Shared Appearance Cues
-[ArXiv Paper](https://arxiv.org/pdf/2406.15565)
+# [Unseen Object Reasoning with Shared Appearance Cues](https://arxiv.org/pdf/2406.15565)
 
 ![image.png](https://github.com/Pari-singh/unseen_object_reasoning/blob/main/images/image.png)
 ~~~
