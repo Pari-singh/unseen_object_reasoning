@@ -1,0 +1,21 @@
+name: Mode loss - Paridhi
+
+conda_env: mlflow_env.yml
+
+entry_points:
+    main:
+        parameters:
+            img_height: int
+            img_width: int
+            batch_size: int
+            max_epochs
+            latent_dim
+            log_every_n_steps
+            loss_w1
+            loss_w2
+            l2_scale
+            dataset
+            debug_data_mini
+        command: "MLFLOW_TRACKING_URI=http://10.1.0.154:5000/ python novel_objects/src/main_prediction_cifar10_default.py
+        --img_height {img_height} --img_width {img_width} --batch_size {batch_size} --max_epochs {max_epochs} --latent_dim {latent_dim}
+        --log_every_n_steps {log_every_n_steps} --loss_w1 {loss_w1} --loss_w2 {loss_w2} --dataset {dataset} --debug_data_mini {debug_data_mini}"
