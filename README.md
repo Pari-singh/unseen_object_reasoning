@@ -1,7 +1,7 @@
 # Unseen Object Reasoning with Shared Appearance Cues
 [ArXiv Paper](https://arxiv.org/pdf/2406.15565)
 
-![Positional Embedding clusters] (image.png)
+![image.png](https://github.com/Pari-singh/unseen_object_reasoning/blob/main/images/image.png)
 ~~~
 conda install -c conda-forge pytorch-lightning
 pip install -r requirements.txt
